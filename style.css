@@ -1,0 +1,293 @@
+*{
+    margin: 0px;
+}
+
+
+.gh{
+    width: 80px;
+}
+.hj{
+    margin-top: 25px;
+}
+.tt{
+    color: black;
+    font-size: 40px;
+    
+}
+.ab{
+    color: green;
+    font-size: 50px;
+}
+.ac{
+    font-size: 50px;
+}
+.ad{
+    font-size: 50px;
+}
+.bh{
+    margin-bottom: 50px;
+}
+.ty{
+    min-width: 300px;
+}
+.gr{
+   text-align: center; 
+}
+.inbox{
+    margin-top:60px ;
+}
+.vb{
+    width:40px;
+    text-align: center;
+}
+.bh{
+    background-color:rgb(0, 0, 0,0.5);
+    padding:100px 0px;
+    
+}
+.hero{
+    background-image: url(ser.jpg);
+    text-align: center;
+    background-size: cover;
+}
+.hero-text{
+   background-color:rgb(0, 0,0 ,0.2);
+   color: white; 
+   padding: 200px 0px;
+   height: 100vh;
+}
+.box1{
+    float: left;
+}
+.inbox{
+    min-width: 300px;
+    text-align: center;
+}
+.sec{
+    background-color: rgb(248, 244, 244);
+}
+.mylist{
+    margin-top: 20px;
+  
+}
+.hy{
+    margin-top: 80px;
+}
+.mn{
+    color: rgb(11, 174, 250);
+}
+.bg{
+    list-style-image: url(icons8-alert-16.png);
+}
+.gd{
+    list-style-image: url(icons8-tick-mark-16.png);
+}
+.kd{
+    list-style-image: url(icons8-calendar-16.png);
+}
+.box4{
+    float: left;
+}
+.by{
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.main{
+    margin: auto;
+}
+.mylist2{
+    margin-left: 80px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size:15px ;
+}
+.wo{
+    color: rgb(17, 129, 235);
+}
+.bd{
+   list-style-image: url(icons8-timer-16.png);
+}
+.pg{
+ list-style-image: url(icons8-lock-16.png);
+}
+.ld{
+  list-style-image: url(icons8-shield-16.png);
+}
+.inboxh{
+    text-align: center;
+    font-size:15px;
+}
+.bl{
+    color: rgb(12, 96, 253);
+    font-size: 15px;
+}
+.inbox1{
+    text-align: center;
+}
+.main{
+    background-color: rgb(243, 243, 243);
+}
+.ht{
+    margin-top: 30px;
+}
+.bio{
+    margin-top: 20px;
+}
+.biot{
+    font-size: 15px;
+}
+.sec5{
+    background-color: rgb(97, 150, 147);
+}
+.inbox2{
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+}
+.leafs{
+    text-align: center;
+}
+.kl{
+    color: white;
+    border:0.1rem solid rgb(247, 247, 247);
+    border-radius: 0%;
+    font-size: small;
+    margin-bottom: 40px;
+}
+.lea{
+    font-size: 45px;
+}
+.dc{
+    text-align: center;
+    font-family:Cambria;
+}
+.tv{
+    text-align: center;
+    color: black;
+    margin-top: 60px;
+}
+.innerbox{
+    text-align: center;
+}
+.hk{
+    border-radius: 0%;
+    text-align: center;
+    color: white;
+    background-color: rgb(248, 135, 5);
+    font-family:Cambria;
+}
+.k{
+    border-color: grey;
+    border-radius: 0%;
+    text-align: center;
+    width: 180px;
+    font-family:Cambria;
+}
+.do{
+    font-size:12px;
+    color: black;
+}
+.sec6{
+    background-color: black;
+}
+.fd{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.inbox6{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.sec7{
+    background-color: black;
+}
+.inb{
+    text-align: center;
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.custom-slide {
+  animation: slideInFromLeft 1s ease-out;
+}
+.navbar-nav .nav-link {
+  color: #333;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+/* Hover effect */
+.navbar-nav .nav-link:hover {
+  color: #fff;
+  background-color: #f0ad4e; /* Bootstrap warning color or custom */
+  text-decoration: none;
+}
+.navbar-nav .nav-link.active {
+  background-color: #ffc107; /* Or any highlight color */
+  color: #fff;
+}
+.navbar-nav .nav-link {
+  position: relative;
+  color: #333;
+}
+
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background-color: #f0ad4e;
+  transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+.navbar .btn {
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* LOG IN button - default and hover */
+.navbar .btn:first-child {
+  background-color: transparent;
+  color: #333;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.navbar .btn:first-child:hover {
+  background-color: #f8f9fa; /* light gray */
+  color: #000;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* SIGN UP button - default and hover */
+.navbar .btn-warning {
+  font-weight: 600;
+  color: #fff;
+}
+
+.navbar .btn-warning:hover {
+  background-color: #e0a800; /* darker warning shade */
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.navbar .btn:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
